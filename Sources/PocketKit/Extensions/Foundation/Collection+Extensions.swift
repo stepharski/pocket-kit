@@ -7,7 +7,7 @@
 
 import Foundation
 
-extension Collection {
+public extension Collection {
     // MARK: Safe Call
     subscript (safe index: Index) -> Element? {
         return indices.contains(index) ? self[index] : nil

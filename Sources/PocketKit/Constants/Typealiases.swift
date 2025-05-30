@@ -7,5 +7,5 @@
 
 import Foundation
 
-typealias CompletionBlock = (() -> Void)
-typealias ItemCompletionBlock<Type> = ((Type) -> Void)
+public typealias CompletionBlock = (() -> Void)
+public typealias ItemCompletionBlock<Type> = ((Type) -> Void)
