@@ -7,8 +7,7 @@
 
 import UIKit
 
-// MARK: - UIViewController + Extensions
-extension UIViewController {
+public extension UIViewController {
     // MARK: Alert
     var isPresentingAlert: Bool {
         return presentedViewController is UIAlertController
